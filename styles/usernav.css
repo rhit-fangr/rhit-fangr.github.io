@@ -1,0 +1,51 @@
+.bmd-layout-canvas {
+    height: auto;
+}
+
+.bmd-layout-header {
+    position: fixed;
+}
+
+.bmd-layout-drawer {
+    position: fixed;
+}
+
+.bg-wine {
+    background: #BFA288;
+}
+
+.list-group-item {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.list-group-item :first-child {
+    margin-right: 0.75rem;
+}
+
+.bmd-layout-drawer>.list-group .list-group-item {
+    padding-left: 1.5rem;
+}
+
+#menuProfileSection {   
+    background-image: url("../images/signature.jpg");
+    background-size: 300px;
+    min-width: 100%;
+    min-height: 180px;
+    border: 8px solid #BFA288;
+    text-shadow: white 0px 0px 2px;
+    font-size: 20pt;
+}
+
+.bmd-drawer-f-l>.bmd-layout-drawer {
+    width: 300px;
+    transform: translateX(-310px);
+}
+
+.bmd-layout-drawer>.list-group {
+    padding: 0;
+}
+
+a:hover{
+    background-color: #D9C49C;
+}

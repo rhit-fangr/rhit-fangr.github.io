@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+  <link rel="stylesheet" href="styles/bootstrap-material-design.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/usernav.css">
+  <link rel="icon" type="image/png" href="favicon.ico" />
+  <title>Ray Fang - About</title>
+</head>
+
+<body id="portfolioPage">
+  <div class="bmd-layout-container bmd-drawer-f-l bmd-drawer-overlay">
+    <header class="bmd-layout-header">
+      <div class="navbar navbar-dark bg-faded fixed-top justify-content-start">
+        <button class="navbar-toggler" type="button" data-toggle="drawer" data-target="#dw-s2">
+          <span class="sr-only">Toggle drawer</span>
+          <i class="material-icons">more_horiz</i>
+        </button>
+      </div>
+    </header>
+    <div id="dw-s2" class="bmd-layout-drawer bg-faded bg-wine">
+      <ul class="list-group">
+        <div id="menuProfileSection"></div>
+        <a id="menuAbout" class="list-group-item"><i class="material-icons">info</i>About Me</a>
+        <a id="menuPortfolio" class="list-group-item"><i class="material-icons">work</i>Portfolio</a>
+        <a id="menuResume" class="list-group-item"><i class="material-icons">stars</i>Resume</a>
+      </ul>
+    </div>
+
+
+    <main id="portfolioForm" class="page-container">
+      <h1 style="text-align: center" class="title"><b>My Projects</b></h1>
+      <section id="portfolio" class="row justify-content-center space-evenly">
+        <section class="col-12 col-sm-6 col-md-4 portfolio-item">
+          <h2>Kung Fu Run</h2>
+          <p>A Unity3D-driven 3D Parkour Game with beautiful chinoiserie art. </p>
+          <img class="portImg" src="images/kungfu.png">
+        </section>
+        <section class="col-12 col-sm-6 col-md-4 portfolio-item">
+          <h2>JS LibsLab</h2>
+          <p>A web application for JavaScript beginners to explore more scripts and libraries.</p>
+          <img class="portImg" src="images/jsl.png">
+        </section>
+        <section class="col-12 col-sm-6 col-md-4 portfolio-item">
+          <h2>Kitchen Kit</h2>
+          <p>An light Android application for cooking lovers to track your ingredients and explore recipes.</p>
+          <img class="portImg" src="images/kitchen.png">
+        </section>
+        <section class="col-12 col-sm-6 col-md-4 portfolio-item">
+          <h2>Song Composing</h2>
+          <p>My own song <span class="song-title">Lost-Time Memory</span> wrote in my music theory class.</p>
+          <img class="portImg" src="images/song.png">
+        </section>
+      </section>
+      
+      </section>
+    </main>
+    <footer >
+      <p>
+        You can reach me at fangr@rose-hulman.edu
+      </p>
+    </footer>
+
+
+  </div>
+
+  <script src="scripts/jquery.min.js"></script>
+  <script src="scripts/popper.js"></script>
+  <script src="scripts/bootstrap-material-design.js"></script>
+  <script>
+    $("body").bootstrapMaterialDesign();
+  </script>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
